@@ -6,7 +6,5 @@ index.md
 
 # Directory Structure
 index.md
-|__images
-
-
-
+README.md
+/images
