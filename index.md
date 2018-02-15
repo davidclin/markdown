@@ -29,7 +29,7 @@ configuration using the referenced device:
 
 ![Topology](/images/test.jpg =10x10)
 
-<img src="../master/blob/images/test.png" width="100">
+<img src="./images/test.png" width="100">
 
 ## Before you begin
 
