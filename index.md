@@ -239,13 +239,6 @@ are set:
 * Integrity algorithm - set to SHA256
 * Diffie-Hellman group - set to 16
 
-      crypto ikev2 proposal VPN_SCALE_TEST_IKEV2_PROPOSAL
-      encryption aes-cbc-256 aes-cbc-192 aes-cbc-128
-      integrity sha256
-      group 16
-      !         
-      crypto ikev2 policy VPN_SCALE_TEST_IKEV2_POLICY
-      proposal VPN_SCALE_TEST_IKEV2_PROPOSAL
 
 #### Configure IKEv2 keyring
 
@@ -256,21 +249,6 @@ foo
 
 foo
 
-#### Configure IPsec security association
-
-foo
-
-#### Configure IPsec transform set
-
-foo
-
-#### Configure IPsec profile
-
-foo
-   
-#### Configure IPsec static virtual tunnel interface (SVTI)
-
-foo
 
 #### Configure static routing to route traffic into the IPsec tunnel
 
@@ -279,12 +257,6 @@ Statically route traffic toward the network in the GCP to the Tunnel interface.
 
 ### Test result
 
-    cisco-asr#ping 172.16.100.2 source 10.0.200.1
-    Type escape sequence to abort.
-    Sending 5, 100-byte ICMP Echos to 172.16.100.2, timeout is 2 seconds:
-    Packet sent with a source address of 10.0.200.1
-    !!!!!
-    Success rate is 100 percent (5/5), round-trip min/avg/max = 18/19/20 ms
 
 ### Advanced VPN configurations
 
@@ -342,13 +314,6 @@ can be expanded to more tunnels if required.
 
 The IPsec tunnel can be tested from the router by using ICMP to ping a host on
 GCP. Be sure to use the `inside interface` on the ASR 1000.
-
-    cisco-asr#ping 172.16.100.2 source 10.0.200.1
-    Type escape sequence to abort.
-    Sending 5, 100-byte ICMP Echos to 172.16.100.2, timeout is 2 seconds:
-    Packet sent with a source address of 10.0.200.1
-    !!!!!
-    Success rate is 100 percent (5/5), round-trip min/avg/max = 18/19/20 ms
 
 
 ## References
