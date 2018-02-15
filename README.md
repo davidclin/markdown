@@ -1,9 +1,12 @@
-# markdown
+# Description
 This is a template for use to create GCP VPN Interoperability guide documention.
 
-# main page
+# Main page
 index.md
 
-# directory structure
-TBD
+# Directory Structure
+index.md
+|__images
+
+
 
