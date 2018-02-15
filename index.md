@@ -29,6 +29,8 @@ configuration using the referenced device:
 
 ![Topology](/images/test.jpg =10x10)
 
+<img src="images/test.png" width="100">
+
 ## Before you begin
 
 ### Overview
