@@ -18,9 +18,11 @@ This is ***bolded and italisized***\
 This is a really long sentence that just got cut off\
 OUCH!
 
+# Pre-formatted Text
 <pre>
 This is pre-formatted text.
-Note there are no break, paragraph, or backslashes to produce a carriage return.
+No breaks, paragraphs, or backslashes are used to produce a carriage return.
+What you see is what you get.
 </pre>
 
 # Spacing
@@ -28,7 +30,8 @@ The beginning of this sentence has no spaces.\
  The beginning of this sentence has 1 spaces.\
   The beginning of this sentence has 2 spaces.\
    The beginning of this sentence has 3 spaces.\
-    The beginning of this sentence has 4 spaces.\
+    The beginning of this sentence has 4 spaces.
+Spacing -- doesn't do jack. Everything gets aligned to the left.
 
 # Bullets
 * Bullet 1
@@ -37,28 +40,29 @@ The beginning of this sentence has no spaces.\
     * Indent 2
 
 # Hyperlinks 
-[link 1]: https://cloud.google.com\
-[compute_vpn]: https://cloud.google.com/compute/docs/vpn/overview\
-[here](https://cloud.google.com/sdk/gcloud/reference/compute/routers/update-bgp-peer).\
-Go to the [Firewall rules](https://console.cloud.google.com/networking/firewalls) page.\
+[Example_1]: https://cloud.google.com \
+[Example_2]: https://cloud.google.com/compute/docs/vpn/overview \
+[Example_3](https://cloud.google.com/sdk/gcloud/reference/compute/routers/update-bgp-peer) \
+Go to the [Example 4](https://console.cloud.google.com/networking/firewalls) page 
 
-# Images
-![alt_text](https://storage.googleapis.com/gcp-community/tutorials/using-cloud-vpn-with-cisco-asr/GCP-Cisco-ASR-Topology-Redundant.jpg)\
 
 # Tables
 
-| title 1 | title 2 |
-----------|----------
-| key     | value   |
-| key     | value   |
+| key | value |
+------|--------
+| apple | green |
+| cherry | red |
 
-1. First Paragraph
-   This is the first sentence.\ 
-   This is the second sentence.\
 
-1. Second Paragraph
+# Paragraphs
+1. First Paragraph \ 
+  This is the first sentence.\ 
+  This is the second sentence. \
+
+1. Second Paragraph \
    This is the third sentence. \
-   This is the fourth sentence.\
+   This is the fourth sentence. \
+
 
 # Source Code
 
@@ -70,3 +74,8 @@ $ yum install update
 print 'hello, world!'
 # Comment
 ```
+
+
+# Images
+![alt_text](https://storage.googleapis.com/gcp-community/tutorials/using-cloud-vpn-with-cisco-asr/GCP-Cisco-ASR-Topology-Redundant.jpg)\
+![](https://storage.googleapis.com/gcp-community/tutorials/using-cloud-vpn-with-cisco-asr/GCP-Cisco-ASR-Topology-Redundant.jpg)
