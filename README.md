@@ -31,6 +31,7 @@ The beginning of this sentence has no spaces.\
   The beginning of this sentence has 2 spaces.\
    The beginning of this sentence has 3 spaces.\
     The beginning of this sentence has 4 spaces.\
+
 Spacing -- doesn't do jack. Everything gets aligned to the left.
 
 # Bullets
