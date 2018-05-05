@@ -57,8 +57,8 @@ Go to the [Example 4](https://console.cloud.google.com/networking/firewalls) pag
 
 # Paragraphs
 1. First Paragraph \ 
-  This is the first sentence.\ 
-  This is the second sentence. \
+   This is the first sentence.\ 
+   This is the second sentence. \
 
 1. Second Paragraph \
    This is the third sentence. \
