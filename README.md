@@ -15,12 +15,12 @@ This is ***bolded and italisized***\
 ###### Header 6
 
 # Carriage Returns
-This is a really long sentence that just got cut off right here \
-and it won't stop!
+This is a really long sentence that just got cut off\
+OUCH!
 
-**'pre' tag*
 <pre>
-This is text inside a pre-formatted tag
+This is pre-formatted text.
+Note there are no break, paragraph, or backslashes to produce a carriage return.
 </pre>
 
 # Spacing
@@ -36,11 +36,13 @@ The beginning of this sentence has no spaces.\
   * Indent 1
     * Indent 2
 
-# Hyperlinks and Images
+# Hyperlinks 
 [link 1]: https://cloud.google.com\
 [compute_vpn]: https://cloud.google.com/compute/docs/vpn/overview\
 [here](https://cloud.google.com/sdk/gcloud/reference/compute/routers/update-bgp-peer).\
 Go to the [Firewall rules](https://console.cloud.google.com/networking/firewalls) page.\
+
+# Images
 ![alt_text](https://storage.googleapis.com/gcp-community/tutorials/using-cloud-vpn-with-cisco-asr/GCP-Cisco-ASR-Topology-Redundant.jpg)\
 
 # Tables
