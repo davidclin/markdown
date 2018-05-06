@@ -87,6 +87,14 @@ The beginning of this sentence has no spaces followed by a backslash \(\\\).\
 
 Spacing -- doesn't do jack. Everything gets aligned to the left.
 
+```
+The beginning of this sentence has no spaces followed by a backslash \(\\\).\
+ The beginning of this sentence has 1 space followed by a backslash \(\\\).\
+  The beginning of this sentence has 2 spaces followed by a backslash \(\\\).\
+   The beginning of this sentence has 3 spaces followed by a backslash \(\\\).\
+    The beginning of this sentence has 4 spaces with NO backslash at the end.
+```
+
 # <a name="bullets"></a>Bullets
 * Bullet 1
 * Bullet 2
@@ -120,6 +128,7 @@ Go to the [Example 4](https://console.cloud.google.com/networking/firewalls) pag
 ------|--------
 | apple | green |
 | cherry | red |
+
 
 ```
 | key | value |
@@ -160,7 +169,12 @@ print 'hello, world!'
 
 
 # <a name="images"></a>Images
-![alt_text](https://storage.googleapis.com/gcp-community/tutorials/using-cloud-vpn-with-cisco-asr/GCP-Cisco-ASR-Topology-Redundant.jpg)\
-![](https://storage.googleapis.com/gcp-community/tutorials/using-cloud-vpn-with-cisco-asr/GCP-Cisco-ASR-Topology-Redundant.jpg)
+![alt_text](./images/button.png\
+![](./images/button.png)
+
+```
+![alt_text](./images/button.png\
+![](./images/button.png)
+```
 
 # <a name="resources"></a>Resources
