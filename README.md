@@ -171,13 +171,15 @@ print 'hello, world!'
 # <a name="images"></a>Images
 ![](./images/button.png)
 <img align="left" src="./images/button.png" height="200" />Image aligned to the left
-<img align="right" src="./images/button.png" height="200" />Image aligned to the right
+<img align="right" src="./images/button.png" height="200" />Image aligned to the right<br>
 <img align="center" src="./images/button.png" height="200" />Image aligned to the center
 
 
 ```
 ![](./images/button.png)
-<img src="./images/button.png" width="200" height="10" />
+<img align="left" src="./images/button.png" height="200" />Image aligned to the left
+<img align="right" src="./images/button.png" height="200" />Image aligned to the right<br>
+<img align="center" src="./images/button.png" height="200" />Image aligned to the center
 ```
 
 # <a name="resources"></a>Resources
