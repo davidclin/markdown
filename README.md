@@ -4,6 +4,7 @@ This is an area to experiment with GitHub markdown.
  
 <details>
 <summary>"Table of Contents"</summary>
+Anchors<br>
 Text<br>
 Headers<br>
 Carriage Returns<br>
@@ -19,7 +20,7 @@ Resources<br>
 
 
 # Anchor
-[Example of anchor to Text](#text)<br>
+[Jump to section with anchor named 'text'](#text)<br>
 
 
 # <a name="text"></a>Text
