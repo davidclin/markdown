@@ -38,6 +38,14 @@ This is *italisized*.\
 This is **bolded**\
 This is ***bolded and italisized***
 
+```
+This is plain text.\
+This is *italisized*.\
+This is **bolded**\
+This is ***bolded and italisized***
+```
+
+
 # <a name="headers"></a>     Header 1
 ##     Header 2
 ###    Header 3
@@ -45,9 +53,23 @@ This is ***bolded and italisized***
 #####  Header 5
 ###### Header 6
 
+```
+#      Header 1
+##     Header 2
+###    Header 3
+####   Header 4
+#####  Header 5
+###### Header 6
+```
+
 # <a name="carriage_returns"></a>Carriage Returns
 This is a really long sentence that just got cut off\
 OUCH!
+
+```
+This is a really long sentence that just got cut off\
+OUCH!
+```
 
 # <a name="pre-formatted_text"></a>Pre-formatted Text
 <pre>
@@ -71,12 +93,26 @@ Spacing -- doesn't do jack. Everything gets aligned to the left.
   * Indent 1
     * Indent 2
 
+```
+* Bullet 1
+* Bullet 2
+  * Indent 1
+    * Indent 2
+```
+
+
 # <a name="hyperlinks"></a>Hyperlinks 
 [Example_1]: https://cloud.google.com \
 [Example_2]: https://cloud.google.com/compute/docs/vpn/overview \
 [Example_3](https://cloud.google.com/sdk/gcloud/reference/compute/routers/update-bgp-peer) \
 Go to the [Example 4](https://console.cloud.google.com/networking/firewalls) page 
 
+```
+[Example_1]: https://cloud.google.com \
+[Example_2]: https://cloud.google.com/compute/docs/vpn/overview \
+[Example_3](https://cloud.google.com/sdk/gcloud/reference/compute/routers/update-bgp-peer) \
+Go to the [Example 4](https://console.cloud.google.com/networking/firewalls) page 
+```
 
 # <a name="tables"></a>Tables
 
@@ -85,6 +121,12 @@ Go to the [Example 4](https://console.cloud.google.com/networking/firewalls) pag
 | apple | green |
 | cherry | red |
 
+```
+| key | value |
+------|--------
+| apple | green |
+| cherry | red |
+```
 
 # <a name="paragraphs"></a>Paragraphs
 1. First Paragraph \ 
@@ -95,6 +137,15 @@ Go to the [Example 4](https://console.cloud.google.com/networking/firewalls) pag
    This is the third sentence. \
    This is the fourth sentence. \
 
+```
+1. First Paragraph \ 
+   This is the first sentence.\ 
+   This is the second sentence. \
+
+1. Second Paragraph \
+   This is the third sentence. \
+   This is the fourth sentence. \
+```
 
 # <a name="source_code"></a>Source Code
 
