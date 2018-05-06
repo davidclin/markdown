@@ -5,7 +5,7 @@ This is an area to experiment with GitHub markdown.
  
 <details>
 <summary>"Table of Contents"</summary>
-[Text](#text)<br>
+Text<br>
 Headers<br>
 Carriage Returns<br>
 Pre-formatted Text<br>
