@@ -1,6 +1,21 @@
 # Markdown Sandbox
 This is an area to experiment with GitHub markdown.
  
+<details>
+<summary>"Table of Contents"</summary>
+Text<br>
+Headers<br>
+Carriage Returns<br>
+Pre-formatted Text<br>
+Spacing<br>
+Bullets<br>
+Tables<br>
+Paragraphs<br>
+Source Code<br>
+Images<br>
+Resources<br> 
+</details>
+
 # Text
 This is plain text.\
 This is *italisized*.\
@@ -80,3 +95,5 @@ print 'hello, world!'
 # Images
 ![alt_text](https://storage.googleapis.com/gcp-community/tutorials/using-cloud-vpn-with-cisco-asr/GCP-Cisco-ASR-Topology-Redundant.jpg)\
 ![](https://storage.googleapis.com/gcp-community/tutorials/using-cloud-vpn-with-cisco-asr/GCP-Cisco-ASR-Topology-Redundant.jpg)
+
+# Resources
