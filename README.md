@@ -171,10 +171,12 @@ print 'hello, world!'
 # <a name="images"></a>Images
 ![alt_text](./images/button.png\
 ![](./images/button.png)
+<img src="./images/button.png" height="200" />
 
 ```
 ![alt_text](./images/button.png\
 ![](./images/button.png)
+<img src="./images/button.png" width="200" height="10" />
 ```
 
 # <a name="resources"></a>Resources
