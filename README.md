@@ -20,11 +20,17 @@ Resources<br>
 
 
 # Anchors
-[Jump to section with anchor named 'text'](#text)<br>
-[Jump to section with anchor named 'headers'](#headers)<br>
-[Jump to section with anchor named 'carriage_returns'](#carriage_returns)<br>
+[Jump to anchor named 'text'](#text)<br>
+[Jump to anchor named 'headers'](#headers)<br>
+[Jump to anchor named 'carriage_returns'](#carriage_returns)<br>
 and so on...
 
+```
+[Jump to anchor named 'foo'](#foo)
+...
+# <a name="foo"></a>Header goes here
+
+```
 
 # <a name="text"></a>Text
 This is plain text.\
