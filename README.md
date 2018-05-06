@@ -170,18 +170,20 @@ print 'hello, world!'
 
 # <a name="images"></a>Images
 ![](./images/button.png)
-<img align="left" src="./images/button.png" height="200" />Image aligned to the left
+<p><img align="left" src="./images/button.png" height="200" />Image aligned to the left</p>
 <hr size = "10"> 
-<img align="right" src="./images/button.png" height="200" />Image aligned to the right
+<p><img align="right" src="./images/button.png" height="200" />Image aligned to the right</p>
 <hr size = "10">
-<img align="center" src="./images/button.png" height="200" />Image aligned to the center
+<p><img align="center" src="./images/button.png" height="200" />Image aligned to the center</p>
 
 
 ```
 ![](./images/button.png)
-<img align="left" src="./images/button.png" height="200" />Image aligned to the left
-<img align="right" src="./images/button.png" height="200" />Image aligned to the right<br>
-<img align="center" src="./images/button.png" height="200" />Image aligned to the center
+<p><img align="left" src="./images/button.png" height="200" />Image aligned to the left</p>
+<hr size = "10"> 
+<p><img align="right" src="./images/button.png" height="200" />Image aligned to the right</p>
+<hr size = "10">
+<p><img align="center" src="./images/button.png" height="200" />Image aligned to the center</p>
 ```
 
 # <a name="resources"></a>Resources
