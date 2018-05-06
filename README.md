@@ -5,7 +5,7 @@ This is an area to experiment with GitHub markdown.
 This is plain text.\
 This is *italisized*.\
 This is **bolded**\
-This is ***bolded and italisized***\
+This is ***bolded and italisized***
 
 #      Header 1
 ##     Header 2
@@ -26,11 +26,11 @@ What you see is what you get.
 </pre>
 
 # Spacing
-The beginning of this sentence has no spaces.\
- The beginning of this sentence has 1 spaces.\
-  The beginning of this sentence has 2 spaces.\
-   The beginning of this sentence has 3 spaces.\
-    The beginning of this sentence has 4 spaces.\
+The beginning of this sentence has no spaces followed by a backslash \(\\\).\
+ The beginning of this sentence has 1 space followed by a backslash \(\\\).\
+  The beginning of this sentence has 2 spaces followed by a backslash \(\\\).\
+   The beginning of this sentence has 3 spaces followed by a backslash \(\\\).\
+    The beginning of this sentence has 4 spaces with NO backslash at the end.
 
 Spacing -- doesn't do jack. Everything gets aligned to the left.
 
