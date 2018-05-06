@@ -1,9 +1,11 @@
 # Markdown Sandbox
 This is an area to experiment with GitHub markdown.
  
+[Text](#text)<br>
+ 
 <details>
 <summary>"Table of Contents"</summary>
-Text<br>
+[Text](#text)<br>
 Headers<br>
 Carriage Returns<br>
 Pre-formatted Text<br>
@@ -16,7 +18,7 @@ Images<br>
 Resources<br> 
 </details>
 
-# Text
+# <a name="text"></a>Text
 This is plain text.\
 This is *italisized*.\
 This is **bolded**\
