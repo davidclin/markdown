@@ -170,7 +170,10 @@ print 'hello, world!'
 
 # <a name="images"></a>Images
 ![](./images/button.png)
-<img src="./images/button.png" height="200" />
+<img align="left" src="./images/button.png" height="200" />Image aligned to the left
+<img align="right" src="./images/button.png" height="200" />Image aligned to the right
+<img align="center" src="./images/button.png" height="200" />Image aligned to the center
+
 
 ```
 ![](./images/button.png)
