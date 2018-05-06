@@ -38,7 +38,7 @@ This is *italisized*.\
 This is **bolded**\
 This is ***bolded and italisized***
 
-#      Header 1
+# <a name="headers"></a>     Header 1
 ##     Header 2
 ###    Header 3
 ####   Header 4
