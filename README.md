@@ -19,7 +19,7 @@ Resources<br>
 </details>
 
 <details>
-<summary>"Table of Contents"</summary>
+<summary>"c7n-mailer output"</summary>
 <pre>
 (c7n_mailer) [ec2-user@ip-10-100-0-195 custodian]$ c7n-mailer --config mailer_sandbox.yml --update-lambda && custodian run -c security-groups-unused-slack.yml
 Traceback (most recent call last):
