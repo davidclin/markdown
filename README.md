@@ -1,7 +1,7 @@
 # Markdown Sandbox
 This is an area to experiment with GitHub markdown.
  
- 
+ # Pulldown Menu
 <details>
 <summary>"Table of Contents"</summary>
 Anchors<br>
@@ -21,79 +21,7 @@ Resources<br>
 <details>
 <summary>"c7n-mailer output"</summary>
 <pre>
-(c7n_mailer) [ec2-user@ip-10-100-0-195 custodian]$ c7n-mailer --config mailer_sandbox.yml --update-lambda && custodian run -c security-groups-unused-slack.yml
-Traceback (most recent call last):
-  File "/home/ec2-user/c7n_mailer/bin/c7n-mailer", line 11, in <module>
-    load_entry_point('c7n-mailer', 'console_scripts', 'c7n-mailer')()
-  File "/home/ec2-user/cloud-custodian/tools/c7n_mailer/c7n_mailer/cli.py", line 131, in main
-    mailer_config = get_and_validate_mailer_config(args)
-  File "/home/ec2-user/cloud-custodian/tools/c7n_mailer/c7n_mailer/cli.py", line 95, in get_and_validate_mailer_config
-    jsonschema.validate(config, CONFIG_SCHEMA)
-  File "/home/ec2-user/c7n_mailer/local/lib/python2.7/site-packages/jsonschema/validators.py", line 541, in validate
-    cls(schema, *args, **kwargs).validate(instance)
-  File "/home/ec2-user/c7n_mailer/local/lib/python2.7/site-packages/jsonschema/validators.py", line 130, in validate
-    raise error
-jsonschema.exceptions.ValidationError: Additional properties are not allowed ('slack_token' was unexpected)
-
-Failed validating u'additionalProperties' in schema:
-    {u'additionalProperties': False,
-     u'properties': {u'account_emails': {u'type': u'object'},
-                     u'cache_engine': {u'type': u'string'},
-                     u'contact_tags': {u'items': {u'type': u'string'},
-                                       u'type': u'array'},
-                     u'cross_accounts': {u'type': u'object'},
-                     u'datadog_api_key': {u'type': u'string'},
-                     u'datadog_application_key': {u'type': u'string'},
-                     u'dead_letter_config': {u'type': u'object'},
-                     u'debug': {u'type': u'boolean'},
-                     u'from_address': {u'type': u'string'},
-                     u'http_proxy': {u'type': u'string'},
-                     u'https_proxy': {u'type': u'string'},
-                     u'lambda_description': {u'type': u'string'},
-                     u'lambda_name': {u'type': u'string'},
-                     u'lambda_schedule': {u'type': u'string'},
-                     u'lambda_tags': {u'type': u'object'},
-                     u'ldap_bind_dn': {u'type': u'string'},
-                     u'ldap_bind_password': {u'type': u'string'},
-                     u'ldap_bind_password_in_kms': {u'type': u'boolean'},
-                     u'ldap_bind_user': {u'type': u'string'},
-                     u'ldap_email_attribute': {u'type': u'string'},
-                     u'ldap_email_key': {u'type': u'string'},
-                     u'ldap_manager_attribute': {u'type': u'string'},
-                     u'ldap_uid_attribute': {u'type': u'string'},
-                     u'ldap_uid_regex': {u'type': u'string'},
-                     u'ldap_uid_tags': {u'items': {u'type': u'string'},
-                                        u'type': u'array'},
-                     u'ldap_uri': {u'type': u'string'},
-                     u'memory': {u'type': u'integer'},
-                     u'profile': {u'type': u'string'},
-                     u'queue_url': {u'type': u'string'},
-                     u'redis_host': {u'type': u'string'},
-                     u'redis_port': {u'type': u'integer'},
-                     u'region': {u'type': u'string'},
-                     u'role': {u'type': u'string'},
-                     u'runtime': {u'type': u'string'},
-                     u'security_groups': {u'items': {u'type': u'string'},
-                                          u'type': u'array'},
-                     u'ses_region': {u'type': u'string'},
-                     u'smtp_password': {u'type': u'string'},
-                     u'smtp_port': {u'type': u'integer'},
-                     u'smtp_server': {u'type': u'string'},
-                     u'smtp_ssl': {u'type': u'boolean'},
-                     u'smtp_username': {u'type': u'string'},
-                     u'subnets': {u'items': {u'type': u'string'},
-                                  u'type': u'array'},
-                     u'timeout': {u'type': u'integer'}},
-     u'required': [u'queue_url', u'role'],
-     u'type': u'object'}
-
-On instance:
-    {'contact_tags': ['OwnerContact', 'OwnerEmail', 'SNSTopicARN'],
-     'from_address': 'email@address.com',
-     'queue_url': 'https://sqs.us-east-1.amazonaws.com/xxxxxxxxxxxx/david-lin-sandbox-cloudcustodian',
-     'region': 'us-east-1',
-     'role': 'arn:aws:iam::xxxxxxxxxxxx:role/CloudCustodianRole',
-     'slack_token': 'xoxb-slack_token'}
+html goes here
 </pre>
 </details>
 
