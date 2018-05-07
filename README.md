@@ -18,13 +18,6 @@ Images<br>
 Resources<br> 
 </details>
 
-<details>
-<summary>"c7n-mailer output"</summary>
-<pre>
-html goes here
-</pre>
-</details>
-
 # Anchors
 [Jump to anchor named 'text'](#text)<br>
 [Jump to anchor named 'headers'](#headers)<br>
