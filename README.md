@@ -3,7 +3,7 @@ This is an area to experiment with GitHub markdown.
  
  # Pulldown Menu
 <details>
-<summary>"Table of Contents"</summary>
+<summary>Table of Contents</summary>
 Anchors<br>
 Text<br>
 Headers<br>
@@ -17,6 +17,14 @@ Source Code<br>
 Images<br>
 Resources<br> 
 </details>
+
+<details>
+<summary>Menu Template</summary>
+<pre>
+Your content goes here
+</pre>
+</details>
+
 
 # Anchors
 [Jump to anchor named 'text'](#text)<br>
