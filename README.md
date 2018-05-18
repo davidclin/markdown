@@ -4,6 +4,7 @@ This is an area to experiment with GitHub markdown.
  # Pulldown Menu
 <details>
 <summary>Table of Contents</summary>
+
 Anchors<br>
 Text<br>
 Headers<br>
@@ -20,11 +21,29 @@ Resources<br>
 
 <details>
 <summary>Menu Template</summary>
+
 <pre>
 Your content goes here
 </pre>
 </details>
 
+ 
+# Checkboxes
+ - [ ] Item 1
+ - [x] Item 2
+ - [x] Item 3
+ - [ ] Item 4
+ - [ ] Item 5
+
+```
+Note the space in front of each line before the dash.
+
+ - [ ] Item 1
+ - [x] Item 2
+ - [x] Item 3
+ - [ ] Item 4
+ - [ ] Item 5
+```
 
 # Anchors
 [Jump to anchor named 'text'](#text)<br>
